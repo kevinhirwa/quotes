@@ -1,7 +1,7 @@
 # Quotes
  A simple application for quotes. Basically based on CRUD(Create Read Update and Delete) operation.
  Powered by Django and React.
-## Install
+## Contribute
 ### Install virtual environment
  ```
  python3 -m pip install --user virtualenv
