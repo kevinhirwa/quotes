@@ -3,11 +3,12 @@
  Powered by Django and React.
 
 ## Install
-### Install virtual environment
+### Back-end (Django)
+#### Install virtual environment
  ```
  python3 -m pip install --user virtualenv
  ```
-### Create a virtual environment
+#### Create a virtual environment
  ```
  python3 -m venv venv
  ```
@@ -17,7 +18,7 @@
  ```
  source bin/activate
  ```
-### Install below packages by using pip
+#### Install below packages by using pip
  ```
  pip install django
  ```
@@ -27,7 +28,7 @@
  ```
  python -m pip install django-cors-headers
  ```
-### Create a project
+#### Create a project
  ```
  django-admin startproject quotes
  ```
@@ -37,6 +38,20 @@
  ```
  django-admin startapp core
  ```
+ 
+### Front-end (Reactjs)
+#### Creact a react app
+```
+npx create-react-app qoutes
+
+cd our-quote
+```
+#### Install dependencies
+```
+npm install bootstrap jquery axios
+```
+Axios is for connecting the back-end to the front-end
+
 ## Contribute
  Install the project by running:
  ```
